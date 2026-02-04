@@ -4,5 +4,152 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"patternStore.workspacePatterns": [
+			{
+				"label": "IzzyUser2",
+				"find": "IzzyBit",
+				"replace": "Izzy",
+				"flags": {
+					"isRegex": false,
+					"isCaseSensitive": false,
+					"matchWholeWord": false,
+					"isMultiline": false
+				},
+				"scope": "workspace"
+			},
+			{
+				"label": "IzzyUser1",
+				"find": "IzzyMouse",
+				"replace": "Izzy",
+				"flags": {
+					"isRegex": false,
+					"isCaseSensitive": false,
+					"matchWholeWord": false,
+					"isMultiline": false
+				},
+				"scope": "workspace"
+			},
+			{
+				"label": "Banned User1",
+				"find": "░░░░",
+				"replace": "░░░░",
+				"flags": {
+					"isRegex": false,
+					"isCaseSensitive": false,
+					"matchWholeWord": false,
+					"isMultiline": false
+				},
+				"scope": "workspace"
+			},
+			{
+				"label": "Banned1",
+				"find": "<img class=chatlog__avatar src=\"https://cdn.discordapp.com/avatars/254091448289460235/74b1f9f1643a14e8defad4f4fb503449.png?size=512\" alt=Avatar loading=lazy>",
+				"replace": "<img class=chatlog__avatar src=\"/icons/Banned.png\" alt=Avatar loading=lazy>",
+				"flags": {
+					"isRegex": false,
+					"isCaseSensitive": false,
+					"matchWholeWord": false,
+					"isMultiline": false
+				},
+				"scope": "workspace"
+			},
+			{
+				"label": "Ghoul",
+				"find": "<img class=chatlog__avatar src=\"https://cdn.discordapp.com/avatars/105789956256993280/72d0cdfaff5f3c5cd5358e7cb07e7f29.png?size=512\" alt=Avatar loading=lazy>",
+				"replace": "<img class=chatlog__avatar src=\"/icons/Ghoul.png\" alt=Avatar loading=lazy>",
+				"flags": {
+					"isRegex": false,
+					"isCaseSensitive": false,
+					"matchWholeWord": false,
+					"isMultiline": false
+				},
+				"scope": "workspace"
+			},
+			{
+				"label": "Izzy",
+				"find": "<img class=chatlog__avatar src=\"https://cdn.discordapp.com/avatars/162606469500370944/1e3642aff36c4d94ad48ac215a0269cc.png?size=512\" alt=Avatar loading=lazy>",
+				"replace": "<img class=chatlog__avatar src=\"/icons/Izzy.png\" alt=Avatar loading=lazy>",
+				"flags": {
+					"isRegex": false,
+					"isCaseSensitive": false,
+					"matchWholeWord": false,
+					"isMultiline": false
+				},
+				"scope": "workspace"
+			},
+			{
+				"label": "Woozy",
+				"find": "<img class=chatlog__avatar src=\"https://cdn.discordapp.com/avatars/142049937473929217/45fdefc5625aa4b8b0ec64d4c67c57e4.png?size=512\" alt=Avatar loading=lazy>",
+				"replace": "<img class=chatlog__avatar src=\"/icons/Woozy.png\" alt=Avatar loading=lazy>",
+				"flags": {
+					"isRegex": false,
+					"isCaseSensitive": false,
+					"matchWholeWord": false,
+					"isMultiline": false
+				},
+				"scope": "workspace"
+			},
+			{
+				"label": "WoozyUser",
+				"find": "Feelingkindawoozy",
+				"replace": "Woozy",
+				"flags": {
+					"isRegex": false,
+					"isCaseSensitive": false,
+					"matchWholeWord": false,
+					"isMultiline": false
+				},
+				"scope": "workspace"
+			},
+			{
+				"label": "Woozy",
+				"find": "<img class=chatlog__avatar src=\"https://cdn.discordapp.com/avatars/142049937473929217/45fdefc5625aa4b8b0ec64d4c67c57e4.png?size=512\" alt=Avatar loading=lazy>",
+				"replace": "<img class=chatlog__avatar src=\"/icons/Woozy.png\" alt=Avatar loading=lazy>",
+				"flags": {
+					"isRegex": false,
+					"isCaseSensitive": false,
+					"matchWholeWord": false,
+					"isMultiline": false
+				},
+				"scope": "workspace"
+			},
+			{
+				"label": "Dakota",
+				"find": "<img class=chatlog__avatar src=\"https://cdn.discordapp.com/guilds/732392791010967583/users/262300717350518785/avatars/ec74d666b4522f9384e9854d2fedd87a.png?size=512\" alt=Avatar loading=lazy>",
+				"replace": "<img class=chatlog__avatar src=\"/icons/Dakota.png\" alt=Avatar loading=lazy>",
+				"flags": {
+					"isRegex": false,
+					"isCaseSensitive": false,
+					"matchWholeWord": false,
+					"isMultiline": false
+				},
+				"scope": "workspace"
+			},
+			{
+				"label": "Daarka",
+				"find": "<img class=chatlog__avatar src=\"https://cdn.discordapp.com/avatars/164583493953650688/4be5a9dcf8faf06444081e876bd1d929.png?size=512\" alt=Avatar loading=lazy>",
+				"replace": "<img class=chatlog__avatar src=\"/icons/Daarka.png\" alt=Avatar loading=lazy>",
+				"flags": {
+					"isRegex": false,
+					"isCaseSensitive": true,
+					"matchWholeWord": false,
+					"isMultiline": false
+				},
+				"scope": "workspace"
+			},
+			{
+				"label": "VH Header",
+				"find": "<!DOCTYPE html><html lang=en><head><title>(.|\\n)*?<div class=\"chatlog\">",
+				"replace": "<html>\n<head>\n<link rel=\"stylesheet\" href=\"styles.css\">\n<script src=\"/components/headerscript.js\"></script>\n</head>\n<body><div id=\"header\"></div>\n<div class=preamble><div class=preamble__guild-icon-container><img class=preamble__guild-icon src=\"/icons/Valehunters.png\" alt=\"Guild icon\" loading=lazy></div>\n<div class=preamble__entries-container>\n<div class=preamble__entry>Acquaintances & Their Cards</div>\n<div class=preamble__entry><sub>Aldis • <i>Month 00, 1026 AE</i></sub>\n</div></div></div>\n<div class=\"chatlog\">",
+				"flags": {
+					"isRegex": true,
+					"isCaseSensitive": false,
+					"matchWholeWord": false,
+					"isMultiline": false
+				},
+				"scope": "workspace"
+			}
+		]
+	}
 }
