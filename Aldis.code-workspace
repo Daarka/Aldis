@@ -16,6 +16,7 @@
 					"matchWholeWord": false,
 					"isMultiline": false
 				},
+				"filesToInclude": "Archives",
 				"scope": "workspace"
 			},
 			{
@@ -28,6 +29,7 @@
 					"matchWholeWord": false,
 					"isMultiline": false
 				},
+				"filesToInclude": "Archives",
 				"scope": "workspace"
 			},
 			{
@@ -40,11 +42,12 @@
 					"matchWholeWord": false,
 					"isMultiline": false
 				},
+				"filesToInclude": "Archives",
 				"scope": "workspace"
 			},
 			{
 				"label": "Banned User1",
-				"find": "░░░░",
+				"find": "Mattie_T",
 				"replace": "░░░░",
 				"flags": {
 					"isRegex": false,
@@ -52,6 +55,7 @@
 					"matchWholeWord": false,
 					"isMultiline": false
 				},
+				"filesToInclude": "Archives",
 				"scope": "workspace"
 			},
 			{
@@ -64,6 +68,7 @@
 					"matchWholeWord": false,
 					"isMultiline": false
 				},
+				"filesToInclude": "Archives",
 				"scope": "workspace"
 			},
 			{
@@ -76,6 +81,7 @@
 					"matchWholeWord": false,
 					"isMultiline": false
 				},
+				"filesToInclude": "Archives",
 				"scope": "workspace"
 			},
 			{
@@ -88,6 +94,7 @@
 					"matchWholeWord": false,
 					"isMultiline": false
 				},
+				"filesToInclude": "Archives",
 				"scope": "workspace"
 			},
 			{
@@ -100,6 +107,7 @@
 					"matchWholeWord": false,
 					"isMultiline": false
 				},
+				"filesToInclude": "Archives",
 				"scope": "workspace"
 			},
 			{
@@ -112,6 +120,7 @@
 					"matchWholeWord": false,
 					"isMultiline": false
 				},
+				"filesToInclude": "Archives",
 				"scope": "workspace"
 			},
 			{
