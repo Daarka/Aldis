@@ -7,6 +7,18 @@
 	"settings": {
 		"patternStore.workspacePatterns": [
 			{
+				"label": "CleanEdits",
+				"find": " <span class=chatlog__edited-timestamp title=(.|\\n)*?</span>",
+				"replace": "",
+				"flags": {
+					"isRegex": false,
+					"isCaseSensitive": false,
+					"matchWholeWord": false,
+					"isMultiline": false
+				},
+				"scope": "workspace"
+			},
+			{
 				"label": "IzzyUser2",
 				"find": "IzzyBit",
 				"replace": "Izzy",
