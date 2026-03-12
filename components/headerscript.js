@@ -11,3 +11,6 @@
             .then(data => {
                 document.getElementById('WIP').innerHTML = data;
             });
+
+
+$( "#header" ).load( "/components/header.html" );
