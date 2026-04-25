@@ -34,10 +34,11 @@ function includeHTML() {
 <!--include works... i think.-->
 <div w3-include-html="header.html"></div> 
 
-<!----- IMAGES CANT HAVE / AT THE FRONT ----->
-<img src="icons/Valehunters.png">
-?
-
+<!----- IMAGES CANT HAVE / AT THE FRONT? ----->
+<br><div class=preamble><div class=preamble__guild-icon-container><img class=preamble__guild-icon src="/icons/Valehunters.png" alt="Guild icon" loading=lazy></div><div class=preamble__entries-container>
+    <div class="preamble__entry">Ancient Historyx</div>
+    <div class="preamble__entry"><sub>Aldis • <i>December 10, 988 AE</i></sub></div>
+    </div></div>
 <!--this script has to be recreated each page right before end of </body>-->
 <script>
 includeHTML();
