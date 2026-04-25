@@ -1,4 +1,4 @@
-// Simple fetch and insert
+/* Simple fetch and insert
         fetch('/components/header.html')
             .then(response => response.text())
             .then(data => {
@@ -11,6 +11,6 @@
             .then(data => {
                 document.getElementById('WIP').innerHTML = data;
             });
-
+*/
 
 $( "#header" ).load( "/components/header.html" );
