@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<!--this script has to be recreated each page in full and cannot seemingly be called from a .js file-->
 <script>
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
@@ -29,11 +30,15 @@ function includeHTML() {
   }
 };
 </script>
-
 <body>
-
+<!--include works... i think.-->
 <div w3-include-html="header.html"></div> 
-<img src="/icons/Valehunters.png">
+
+<!----- but why the fuck arent you working ----->
+<img src="icons/Valehunters.png">
+?
+
+<!--this script has to be recreated each page right before end of </body>-->
 <script>
 includeHTML();
 </script>
