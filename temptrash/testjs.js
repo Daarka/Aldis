@@ -1,1 +1,1 @@
-$( "#header" ).load( "/components/header.html" );
+$( "#header" ).load( "/Aldis/components/header.html" );
